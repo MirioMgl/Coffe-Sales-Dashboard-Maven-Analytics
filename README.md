@@ -1,7 +1,17 @@
 # **Coffe-Sales-Dashboard-Maven-Analytics**
 Dynamic Coffee Sales Dashboard with Excel Pivot Tables and Charts.
 
+
+[View the interactive dashboard on Excel](https://onedrive.live.com/:x:/g/personal/458D2DCA003771D3/EcVGVqYJe99ErzsToBih1VEB-UXrU3V8WQB09UfIP248kQ?resid=458D2DCA003771D3!sa65646c57b0944dfaf3b13a018a1d551&ithint=file%2Cxlsx&e=HktgVh&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NThkMmRjYTAwMzc3MWQzL0VjVkdWcVlKZTk5RXJ6c1RvQmloMVZFQi1VWHJVM1Y4V1FCMDlVZklQMjQ4a1E_ZT1Ia3RnVmg)
+
+
+
+
+
+
 ## **Introduction**
+
+To help the owner of a coffee shop franchise in New York City get a better understanding of purchase behavior and streamline operations, I analyzed six months of sales data, from January 2023 to June 2023. The data were organized in a single worksheet with 11 fields and 149,116 records. 
 
 The project goal is to create a dynamic dashboard to analyze sales data for a fictional coffee shop franchise in New York, Maven Roaster, and obtain useful insights to help the business.
 
@@ -19,31 +29,6 @@ Objectives:
 >3. Build a dynamic dashboard to visualize patterns and trends.
 
 
-## **Dataset**
-
-The dataset is a single table with eleven fields and 149116 entries. 
-
-Here's a breakdown of the various fields grouped by type:
-
-| Transaction      | Store      | Product |
-|----------------|----------------|----------------|
-|transaction_id  |store_id	      |product_id	 |
-|transaction_date|store_location	|unit_price |
-|transaction_time|                |product_category|
-|transaction_qty |                |product_type|
-|                |                |product_detail|
-
-The Dataset collects data from January to June 2023.
-
-The three stores' fictional locations are Astoria, Hell's Kitchen, and Lower Manhattan.
-
-The following calculated columns were added to prepare data for analysis:
-
-1. Revenue
-2. Transaction_Month	
-3. Transaction_Dayweek
-2. Transaction_hour	
-
 
 ## **Key Findings**
 
@@ -51,14 +36,14 @@ The following calculated columns were added to prepare data for analysis:
 2. **7-10** am are peak hours for transactions 
 3. Tea and Coffee are the most popular product categories, while 
 4. Saturday is the least for transaction numbers in general, while if we look at the single store, we can see different patterns. Astoria and Hell's Kitchen have their lowest transaction numbers on Saturday, while Lower Manhattan on Sunday.
-5. The most popular products are Brewed Chai Tea, Gourmet Brewed Coffee, and Barista espresso.
+5. Brewed Chai Tea, Gourmet Brewed Coffee, and Barista espresso are the most popular products.
 6. Scone is the top seller for bakery products, with a total revenue of $36,866. It's in the Top 10 of products per number of transactions.
 
 ## **Impact**
 
 1. Improved staff shift management by identifying peak hours, enabling the allocation of additional personnel to handle increased demand.
 2. Reduced customer waiting time during busy periods by aligning staffing levels with peak usage trends.
-3. Identified the top-selling bakery product, providing insights into customer preferences and guiding the development of similar products to better meet customer tastes.
+3. Identified the top-selling bakery product, providing insights into customer preferences and guiding the development of similar products to meet customer tastes better.
 
 
 ## **Disclaimer**
